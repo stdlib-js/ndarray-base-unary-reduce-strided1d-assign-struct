@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tags). For example,
+
+```javascript
 import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@v0.0.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@v0.0.0-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@deno/mod.js';
 ```
 
 #### unaryReduceStrided1d( fcn, arrays, dims\[, options] )
@@ -206,7 +211,7 @@ import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to
 import Float64Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-float64@deno/mod.js';
 import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@deno/mod.js';
 import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-ztest@deno/mod.js';
-import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@v0.0.0-deno/mod.js';
+import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@deno/mod.js';
 
 var ResultsArray = structFactory( Float64Results );
 
