@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/ndarray-base-unary-reduce-strided1d-to-struct",
+  "name": "@stdlib/ndarray-base-unary-reduce-strided1d-assign-struct",
   "version": "0.0.0",
-  "description": "Perform a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function and assign results to a provided output ndarray.",
+  "description": "Perform a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function which accepts an output struct object and assign results to a provided output ndarray.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -29,7 +29,7 @@
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct.git"
+    "url": "git://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct.git"
   },
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"

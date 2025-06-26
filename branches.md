@@ -38,19 +38,19 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-reduce-strided1d-to-struct"
-%% click B href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/main"
-%% click C href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/production"
-%% click D href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/esm"
-%% click E href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/deno"
-%% click F href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-reduce-strided1d-assign-struct"
+%% click B href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/main"
+%% click C href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/production"
+%% click D href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/esm"
+%% click E href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/deno"
+%% click F href "https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/umd"
 ```
 
-[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-reduce-strided1d-to-struct
-[production-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/production
-[deno-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/deno
-[deno-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/umd
-[umd-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/esm
-[esm-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/blob/esm/README.md
+[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-reduce-strided1d-assign-struct
+[production-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/production
+[deno-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/deno
+[deno-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/umd
+[umd-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/esm
+[esm-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/blob/esm/README.md

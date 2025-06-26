@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Perform a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function and assign results to a provided output ndarray.
+> Perform a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function which accepts an output [`struct`][@stdlib/dstructs/struct] object and assign results to a provided output ndarray.
 
 <section class="intro">
 
@@ -46,7 +46,7 @@ limitations under the License.
 ## Installation
 
 ```bash
-npm install @stdlib/ndarray-base-unary-reduce-strided1d-to-struct
+npm install @stdlib/ndarray-base-unary-reduce-strided1d-assign-struct
 ```
 
 Alternatively,
@@ -66,12 +66,12 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var unaryReduceStrided1d = require( '@stdlib/ndarray-base-unary-reduce-strided1d-to-struct' );
+var unaryReduceStrided1d = require( '@stdlib/ndarray-base-unary-reduce-strided1d-assign-struct' );
 ```
 
 #### unaryReduceStrided1d( fcn, arrays, dims\[, options] )
 
-Performs a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function and assigns results to a provided output ndarray.
+Performs a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function which accepts an output [`struct`][@stdlib/dstructs/struct] object and assigns results to a provided output ndarray.
 
 <!-- eslint-disable max-len -->
 
@@ -218,7 +218,7 @@ var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
 var Float64Results = require( '@stdlib/stats-base-ztest-one-sample-results-float64' );
 var structFactory = require( '@stdlib/array-struct-factory' );
 var ztest = require( '@stdlib/stats-base-ndarray-ztest' );
-var unaryReduceStrided1d = require( '@stdlib/ndarray-base-unary-reduce-strided1d-to-struct' );
+var unaryReduceStrided1d = require( '@stdlib/ndarray-base-unary-reduce-strided1d-assign-struct' );
 
 var ResultsArray = structFactory( Float64Results );
 
@@ -309,6 +309,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -321,19 +326,19 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-unary-reduce-strided1d-to-struct.svg
-[npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-unary-reduce-strided1d-to-struct
+[npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-unary-reduce-strided1d-assign-struct.svg
+[npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-unary-reduce-strided1d-assign-struct
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/actions/workflows/test.yml?query=branch:main
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/main
 
 -->
 
@@ -347,13 +352,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/deno
-[deno-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/umd
-[umd-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/tree/esm
-[esm-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-to-struct/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/deno
+[deno-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/umd
+[umd-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/tree/esm
+[esm-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct/main/LICENSE
 
 [@stdlib/dstructs/struct]: https://github.com/stdlib-js/dstructs-struct
 

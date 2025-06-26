@@ -24,7 +24,7 @@ on:
   # Run this workflow weekly:
   schedule:
     # cron: '<minutes> <hours> <day_of_month> <month> <day_of_week>'
-    - cron: '5 17 * * 3'
+    - cron: '57 9 * * 0'
 
   # Allow the workflow to be manually run:
   workflow_dispatch:
