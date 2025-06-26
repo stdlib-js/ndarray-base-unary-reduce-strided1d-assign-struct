@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@esm/index.mjs';
+import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@v0.0.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@v0.0.0-esm/index.mjs';
 ```
 
 #### unaryReduceStrided1d( fcn, arrays, dims\[, options] )
@@ -211,7 +211,7 @@ import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to
 import Float64Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-float64@esm/index.mjs';
 import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@esm/index.mjs';
 import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-ztest@esm/index.mjs';
-import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@esm/index.mjs';
+import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-assign-struct@v0.0.0-esm/index.mjs';
 
 var ResultsArray = structFactory( Float64Results );
 
