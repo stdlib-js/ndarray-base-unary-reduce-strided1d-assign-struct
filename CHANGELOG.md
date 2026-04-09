@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-08)
+## Unreleased (2026-04-09)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - **fix:** resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337) _(by Philipp Burckhardt)_
 -   [`89a6d62`](https://github.com/stdlib-js/stdlib/commit/89a6d62754b818bc87f80800443b1d65a40c41dd) - **refactor:** use already defined variable _(by Athan Reines)_
 -   [`94e56f0`](https://github.com/stdlib-js/stdlib/commit/94e56f0ce160c8d5409fd7750ff42c4249704e5c) - **refactor:** add support for ancillary ndarray arguments having trailing dimensions _(by Athan Reines)_
 
@@ -25,9 +36,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
